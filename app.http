@@ -1,0 +1,19 @@
+POST  http://localhost:3000/register
+Content-Type: application/json
+
+{
+  "username": "dinesh_123",
+  "name": "Nalliboina Dinesh",
+  "password": "Dinesh098$",
+  "gender": "male",
+  "location": "Hyderabad"
+}
+
+###
+POST  http://localhost:3000/login
+Content-Type: application/json
+
+{
+  "username": "dinesh_123",
+  "password": "Dinesh098$"
+}
